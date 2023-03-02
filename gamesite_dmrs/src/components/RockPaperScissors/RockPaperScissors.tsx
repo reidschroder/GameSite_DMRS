@@ -85,9 +85,6 @@ const randomAction = (value: any) => {
 
     randomAction(value);
     findWinner();
-    //console.log(chooseWinner);
-    //console.log(randomAction(value));
-    //console.log()
 
 }
     
