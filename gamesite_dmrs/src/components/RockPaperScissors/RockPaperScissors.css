@@ -1,0 +1,35 @@
+.center {
+    text-align: center;
+
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.player {
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(61, 59, 59);
+}
+.game-button {
+    width: 80%;
+    height: 80%;
+    border: 5%;
+    border: none;
+    margin: 2px;
+    cursor: pointer;
+}
+.game-button:hover {
+    box-shadow: 0, 2px, 2px, 0;
+}
+.choice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
