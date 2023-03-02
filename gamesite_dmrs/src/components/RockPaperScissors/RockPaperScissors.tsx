@@ -53,8 +53,8 @@ const randomAction = (value: any) => {
 
 
  function findWinner() {
-    console.log(playerAction);
-    console.log(computerChoice);
+    //console.log(playerAction);
+    //console.log(computerChoice);
     if (playerAction === FaHandRock && computerChoice === FaHandRock) {
         setChooseWinner("It's a draw");
      } else if (playerAction === FaHandPaper && computerChoice === FaHandPaper) {
@@ -74,17 +74,18 @@ const randomAction = (value: any) => {
      } else if (playerAction === FaHandScissors && computerChoice === FaHandPaper) {
         setChooseWinner("Player 1 Wins")
      }
-     console.log(chooseWinner);
+     //console.log(chooseWinner);
  }
 
 
  const handleClick = (value: any) => {
+    console.log(value);
     setPlayerAction(value);
     //console.log(value);
 
     randomAction(value);
     findWinner();
-    console.log(chooseWinner);
+    //console.log(chooseWinner);
     //console.log(randomAction(value));
 
 }
